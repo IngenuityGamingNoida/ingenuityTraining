@@ -11,7 +11,7 @@ body{
       width: auto;
   }
   h1{
-    font-size: 60px;
+    font-size: 65px;
     animation:colorchangehangman 2s infinite;/*----animation--*/
   }
   .float-right{
