@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kaushan+Script&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Carter+One&display=swap');
+body{
+    /*background-color: #333232;*/
+    background-image: url('images/dark_image1.jpg');/*--background image*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    margin-top: 8%;
+    font-size: 60px;
+    color: #fff;
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-right: 1%;
+}
+#container{
+    margin-top: 0%;
+    margin-left: 25%;
+    background-image: url('images/light.png');/*--background image*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid ;
+    height: 300px;
+    width: 750px;
+    text-align: center;
+    box-shadow: 10px 15px #fff;
+
+}
+p{
+    color:black;
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+}
+#input{
+    width: 200px;
+    margin:25px auto;
+
+}
+#userInput{
+    border-radius: 5px;
+    height: 30px;
+    width: auto;
+}
+#btn{
+    margin: 25px auto auto 5px;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+}
+#btn:hover{
+    color: #fff;
+    background-color:red;
+}
+#outputtext {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+.btn-info{
+    margin: 25px auto auto 5px;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.hint{
+    margin: 25px auto auto 5px;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.hint:hover{
+    color: #fff;
+    background-color: green;
+}
+.btn-info:hover{
+    color: #fff;
+    background-color: blue;
+}

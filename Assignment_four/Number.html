@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess tHe Number</title>
+    <link rel="stylesheet" href="number.css">
+</head>
+<body>
+    <h1>Guess the Number</h1>
+    <div id="container">
+        <p>
+            Guess the number between 1 to 100
+        </p>
+        
+        <p id="outputtext">Enter a number below</p>
+        <!--<img src="images/bear-white-bear.gif" alter="teddy">-->
+        <input type ="number" id="userInput"><button id="btn">Enter</button>
+        
+        <button class="hint" value="hint" onClick="hint()">Hint</button>
+        <button class="btn btn-info" onClick="reset()">play again</button>
+        <div><p id="prev"></p></div>
+    </div>
+    <script src="number.js"></script>
+</body>
+</html>
