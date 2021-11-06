@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    font-family: "Bowlby One SC", cursive;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  body {
+     background-image: url(images/musi_background_2.jpg);
+     background-repeat:no-repeat;
+     background-size:cover;
+    color: white;
+  }
+  
+  #canvas {
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /*width: 30%;*/
+    transform: translate(-50%, -50%);
+    border: 1px solid purple;
+  }
+  
+  .high-score {
+    position: absolute;
+    top: 1.5rem;
+    width: 80%;
+    left: 10%;
+    font-size: 50px;
+    text-align: center;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+  }
+  
+  .reset {
+    cursor: pointer;
+    position: absolute;
+    top: 88%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    font-size: 40px;
+    background-image: linear-gradient(to right,violet ,red,yellow,green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+  }
