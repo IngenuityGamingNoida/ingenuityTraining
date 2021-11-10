@@ -26,11 +26,9 @@ function randomWord() {
 }
 
 function generateButtons() {
-<<<<<<< Updated upstream
-  let buttonsHTML = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter =>//create generate function
-=======
+
   let buttonsHTML = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter => //this will generate buttons from a to z
->>>>>>> Stashed changes
+
     `
       <button
         class="btn btn-lg btn-primary m-2"
