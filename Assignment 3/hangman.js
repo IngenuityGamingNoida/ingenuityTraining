@@ -26,7 +26,7 @@ function randomWord() {
 }
 
 function generateButtons() {
-  let buttonsHTML = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter =>
+  let buttonsHTML = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter =>//create generate function
     `
       <button
         class="btn btn-lg btn-primary m-2"
