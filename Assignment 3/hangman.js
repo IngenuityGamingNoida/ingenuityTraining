@@ -26,7 +26,7 @@ function randomWord() {
 }
 
 function generateButtons() {
-
+ 
   let buttonsHTML = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter => //this will generate buttons from a to z
 
     `
