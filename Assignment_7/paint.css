@@ -1,0 +1,90 @@
+body{
+    background-color: whitesmoke;
+}
+.canvasPaint {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color:gray;
+    margin-right: 5px;
+    padding: 10px 0;
+
+}
+#save {
+    padding: 3px 8px;
+    color: orangered;
+    cursor: pointer;
+    margin-bottom: 320px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#save:hover {
+    color: #fff;
+    background-color: black;
+    transition: ease-in-out;
+}
+#tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 8px 0;
+    padding: 30px;
+}
+.tools-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    margin: 5px 0px;
+}
+#clearCanvas {
+    font-weight: bold;
+    color: orangered;
+    text-align: center;
+    cursor: pointer;
+}
+#clearCanvas:hover {
+    color: whitesmoke;
+    
+}
+.colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#selectColor {
+    max-width: 30px;
+}
+.main {
+    width: 100%;
+    /* cursor: crosshair; */
+    display: flex;
+    flex-direction: column;
+}
+#paintArea {
+    border: 3px solid darkslategray;
+}
+.detailDisplayer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 5px 42px;
+    margin-top: 3px;
+}
+.show {
+    font-weight: bold;
+}
+#showToolName, #showColorName, #showLiveCursorPosition {
+    color: white;
+    font-weight: bold;
+}
