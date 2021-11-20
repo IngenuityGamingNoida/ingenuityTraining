@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid data</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=Kaushan+Script&family=Poppins:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=Carter+One&display=swap');
+        body{
+            color: tomato;
+            
+        }
+        h1{
+            justify-content: center;
+            text-align: center;
+            font-family: 'Kaushan Script', cursive;
+            color: violet;
+            background-image: linear-gradient(to right, red,violet);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color:transparent;
+            font-size: 42px;
+        }
+        label{
+            margin-left: 35%;
+            font-size: 25px;
+            color: tomato;
+        }
+        #optionsSelect{
+            font-size: 20px;
+            border-radius: 5px;
+
+        }
+        button{
+            color: tomato;
+            align-items: center;
+            border-radius: 10px;
+            margin-left: 43%;
+            font-size: 20px;
+            margin-top: 1%;
+        }
+        button:hover{
+            color: #fff;
+            background-color: tomato;
+        }
+       #main{
+           margin-top: 3%;
+       }
+       table{
+           border: 3px solid black;
+       }
+       th{
+           border: 3px solid tomato;
+           background-color: tomato;
+           color: #fff;
+       }
+       tr{
+           border: 2px solid black;
+       }
+       td{
+        border: 2px solid black;
+
+       }
+       
+    </style>
+</head>
+<body>
+    <h1>API Of Covid Dataset</h1>
+    <nav>
+        <form>
+            <label for="options">Choose a options:</label>
+            <select name="options" id="optionsSelect">
+                <option value="All">All</option>
+                <option value="Africa">Africa</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+            </select>
+            <button id="btn">show Data</button>
+        </form>
+    </nav>
+    <main id="main">
+        <div id="covidData"></div>
+    </main>
+    <script src="./src/index.js"></script>
+</body>
+</html>
