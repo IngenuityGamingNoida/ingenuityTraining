@@ -1,0 +1,24 @@
+[
+  
+  {
+    "key": "Character",
+    "url": "assets/character.jpg"
+  },
+ 
+  {
+    "key": "desyrel",
+    "url": "https://pixijs.io/examples/examples/assets/bitmap-font/desyrel.xml"
+  },
+  {
+    "key": "orangeJuice",
+    "url": "assets/orange-juice-2.0-msdf.json"
+  },
+  {
+    "key": "notoSans",
+    "url": "assets/NotoSans-Bold.fnt"
+  },
+  {
+    "key": "notoSansBlack",
+    "url": "assets/NotoSans-Black.fnt"
+  }
+]
